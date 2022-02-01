@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap');
+$fontfamily:"Heebo";
+$main-color:#FF6464;
+$section-bg:#EDF7FA;
+//?==============================================================
+@import "null.scss";
+body {
+    font-family: $fontfamily;
+}
+
+.wrapper {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 856px;
+    margin: 0px auto;
+    padding: 0px 20px;
+    height: 100%;
+}
+
+@import "header.scss";
+@import "footer.scss";
